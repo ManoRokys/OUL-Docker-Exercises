@@ -1,0 +1,1 @@
+print("Olá, Docker. você está rodando no usuário root?")

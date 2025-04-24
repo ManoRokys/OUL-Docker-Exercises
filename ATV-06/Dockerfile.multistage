@@ -1,0 +1,18 @@
+FROM golang:1.19 AS builder
+
+WORKDIR /app
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN CGO_ENABLED=0 GOOS=linux go build -o gs-ping
+
+
+FROM builder AS test
+RUN go test -v ./...
+FROM gcr.io/distroless/base-debian11
+WORKDIR /
+COPY --from=builder /app/gs-ping .
+
+EXPOSE 8080
+USER nonroot:nonroot
+ENTRYPOINT ["/gs-ping"]

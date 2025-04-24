@@ -1,0 +1,1 @@
+print("Atualizando bibliotecas do python 3.9")
