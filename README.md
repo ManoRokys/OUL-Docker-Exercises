@@ -261,16 +261,24 @@ Listagem das redes criadas:
 
 **Objetivo:** Criar usuário no Dockerfile e verificar execução com permissão segura.
 
+**Entrypoint do projeto para ele se manter ativo:**
+
+![Captura de tela 2025-04-24 094919](https://github.com/user-attachments/assets/8f7fcf52-4fad-4cfe-b0c7-b781fd5ec584)
+
 **Print do Dockerfile:**
 
-**Comando de execução e verificação:**
-```bash
-docker run -d --name safe-container lucas-python
+![Captura de tela 2025-04-24 094928](https://github.com/user-attachments/assets/5acf5012-b9c7-40cb-ad81-33ed4f4ebf61)
 
-docker exec safe-container whoami
-```
+**Comando de execução e verificação:**
+
+![Captura de tela 2025-04-24 094949](https://github.com/user-attachments/assets/2129e0ff-889d-4d07-a413-09ae5acacd77)
+
+![Captura de tela 2025-04-24 095008](https://github.com/user-attachments/assets/2809c442-aa8f-402e-82e5-71e929f2a9a1)
 
 **Print da verificação:**
+
+![Captura de tela 2025-04-24 095023](https://github.com/user-attachments/assets/3ee07953-acd2-4c69-b44b-b439f9426370)
+
 
 ---
 
@@ -280,26 +288,46 @@ docker exec safe-container whoami
 
 **Imagem analisada:** `python:3.9`
 
+**Instalação do trivy via linux**
+
+![Captura de tela 2025-04-24 095319](https://github.com/user-attachments/assets/59d39c0d-138c-412e-9c41-2e38d7014de1)
+
+![Captura de tela 2025-04-24 095825](https://github.com/user-attachments/assets/45433e87-18f0-43fd-ae63-e6178dc1237d)
+
+Teste se o trivy foi instalado com sucesso:
+
+![Captura de tela 2025-04-24 095841](https://github.com/user-attachments/assets/75500adf-c3cf-4dbb-83d7-79d28d56c488)
+
 **Comando:**
-```bash
-trivy image python:3.9
-```
+
+![Captura de tela 2025-04-24 103548](https://github.com/user-attachments/assets/91a086a4-aa79-4569-8dac-13028874a77c)
 
 **Print dos resultados com severidade HIGH e CRITICAL:**
 
+![Captura de tela 2025-04-24 112810](https://github.com/user-attachments/assets/528fd364-e138-486e-9350-5f7eb916c55b)
+
+
 **Print ou tabela com sugestões de correção:**
+
+![Captura de tela 2025-04-24 112751](https://github.com/user-attachments/assets/3a294170-ba5e-4a7c-9f56-7ddc100a5259)
 
 ---
 
 ## 12. Correção de vulnerabilidades em Dockerfile
 
-**Objetivo:** Otimizar Dockerfile vulnerável, melhorar segurança e tamanho.
+**Objetivo:** Otimizar Dockerfile vulnerável, melhorar segurança.
 
 **Print do Dockerfile original:**
 
+![Captura de tela 2025-04-25 105526](https://github.com/user-attachments/assets/f300732b-6437-42a1-975d-55f21ab46eb5)
+
 **Print do Dockerfile corrigido:**
 
-**Comandos usados e tamanho da imagem final:**
+![Captura de tela 2025-04-24 112537](https://github.com/user-attachments/assets/a8bfade0-a6e6-41a8-88c3-ce8c623c7a02)
+
+**Comandos usados:**
+
+![Captura de tela 2025-04-24 112738](https://github.com/user-attachments/assets/5820efbd-81bc-4af0-9dd0-ff67bdf55277)
 
 ---
 
