@@ -123,14 +123,47 @@ Comando para remover o container de teste:
 
 **Objetivo:** Criar volume para persistência dos dados de um container MySQL.
 
-**Print do docker-compose.yml:**
-
 **Print dos comandos e testes de persistência:**
-```bash
-docker-compose up -d
-docker exec -it mysql bash
-mysql -u root -p
-```
+
+Rodando o docker compose do projeto:
+
+![Captura de tela 2025-04-23 084446](https://github.com/user-attachments/assets/b9c2ee3a-b8e0-49b0-8dc6-2b474ac260c3)
+
+Listagem dos volumes (mostrando que o volume foi criado):
+
+![Captura de tela 2025-04-23 085000](https://github.com/user-attachments/assets/464223eb-3f08-4895-b535-085cfe931ee6)
+
+Aplicação rodando em localhost:3000 :
+
+![Captura de tela 2025-04-23 085145](https://github.com/user-attachments/assets/b039f498-3fc7-41a4-8395-0dae1cacdd93)
+
+Executando o container no modo interativo para a criação do banco de dados:
+
+![Captura de tela 2025-04-23 085903](https://github.com/user-attachments/assets/4d1a3306-0b1d-47b3-8d0d-fe2d5df7bdd9)
+
+Entrando no mysql:
+
+![Captura de tela 2025-04-23 085421](https://github.com/user-attachments/assets/002a10ed-1993-49a9-a111-1241d5138562)
+
+Banco de dados criado para testar a persistência do volume:
+
+![Captura de tela 2025-04-23 085614](https://github.com/user-attachments/assets/b666199a-9058-4a00-b1d7-332f04acd185)
+
+Saindo do modo mysql e da execução:
+
+![Captura de tela 2025-04-23 085636](https://github.com/user-attachments/assets/c7fdee8f-cdf9-40d2-99d2-04233939edaa)
+
+Derrubando os containers: 
+
+![Captura de tela 2025-04-23 085700](https://github.com/user-attachments/assets/01e21c7c-15d9-48e7-905d-1f16d8c1dc2f)
+
+Montando os containers novamente e abrindo o mysql no modo de execução:
+
+![Captura de tela 2025-04-23 085903](https://github.com/user-attachments/assets/d5509ecd-35f3-48f7-9a3a-7f2bf6b672c8)
+
+Mostrando que os dadis estão persistêntes no volume:
+
+![Captura de tela 2025-04-23 085849](https://github.com/user-attachments/assets/2d956dcd-8719-4288-988f-8413967762ec)
 
 ---
 
