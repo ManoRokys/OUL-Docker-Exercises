@@ -60,7 +60,7 @@ Script que instala algumas bibliotecas:
 
 **Print do terminal com os pacotes do script instalados:**
 
-![Captura de tela 2025-04-22 092736](https://github.com/user-attachments/assets/983ee2f3-68eb-4ec0-a660-e19a396e3b6b)
+![Captura de tela 2025-04-22 092736](https://github.com/user-attachments/assets/4d0fa64d-0364-4461-9662-e6c1827f3fbe)
 
 ---
 
