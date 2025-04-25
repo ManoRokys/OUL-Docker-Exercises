@@ -16,6 +16,7 @@ Este documento apresenta a resolução da lista de exercícios propostos para pr
 **Landing page do TailwindCSS:** https://github.com/tailwindtoolbox/Landing-Page
 
 **Print do Dockerfile (e da estrutura do projeto):**
+
 Copiei o Repositório do TailwindCSS para a raiz do meu projeto Docker:
 ![Captura de tela 2025-04-17 103848](https://github.com/user-attachments/assets/760be4b7-1f05-4ebc-83f8-756c3400cc53)
 Dockerfile:
@@ -23,6 +24,7 @@ Dockerfile:
 
 
 **Comandos executados:**
+
 Fazendo a montagem da imagem:
 ![Captura de tela 2025-04-17 103823](https://github.com/user-attachments/assets/7658147c-51fd-43b4-860c-cd44784bceb7)
 Rodando o container na porta 8080:
