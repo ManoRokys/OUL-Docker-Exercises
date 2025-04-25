@@ -161,7 +161,7 @@ Montando os containers novamente e abrindo o mysql no modo de execução:
 
 ![Captura de tela 2025-04-23 085903](https://github.com/user-attachments/assets/d5509ecd-35f3-48f7-9a3a-7f2bf6b672c8)
 
-Mostrando que os dadis estão persistêntes no volume:
+Mostrando que os dados estão persistêntes no volume:
 
 ![Captura de tela 2025-04-23 085849](https://github.com/user-attachments/assets/2d956dcd-8719-4288-988f-8413967762ec)
 
@@ -173,13 +173,26 @@ Mostrando que os dadis estão persistêntes no volume:
 
 **Print do Dockerfile com multi-stage:**
 
+![Captura de tela 2025-04-23 091200](https://github.com/user-attachments/assets/5bd3f9b3-d3a4-47ca-8aa5-94ff03092419)
+
 **Comandos executados:**
-```bash
-docker build -f Dockerfile.multistage -t gs-ping .
-docker run -p 8080:8080 gs-ping
-```
+
+Montando a imagem: 
+
+![Captura de tela 2025-04-23 091148](https://github.com/user-attachments/assets/1b4570e1-ba53-4edc-a20c-6fe112f80afe)
+
+Listagem das images (mostrando que o tamanho da imagem é bem otimizada):
+
+![Captura de tela 2025-04-23 091353](https://github.com/user-attachments/assets/ef955fb8-93d0-4021-ac2a-f756dbc1f88d)
+
+Rodando o container na porta 8080:
+
+![Captura de tela 2025-04-23 091421](https://github.com/user-attachments/assets/081bee45-88e0-4275-bc93-5dc3ab00ec57)
 
 **Print da aplicação funcionando:**
+
+![Captura de tela 2025-04-23 091433](https://github.com/user-attachments/assets/bf0784ef-3674-430d-af0f-a7ba9d3c40c4)
+
 
 ---
 
