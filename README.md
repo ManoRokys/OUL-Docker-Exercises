@@ -13,6 +13,8 @@ Este documento apresenta a resolução da lista de exercícios propostos para pr
 
 **Objetivo:** Executar um container com a imagem do Nginx e servir um site estático (landing page do TailwindCSS).
 
+**Landing page do TailwindCSS:** https://github.com/tailwindtoolbox/Landing-Page
+
 **Print do Dockerfile (e da estrutura do projeto):**
 
 ![Captura de tela 2025-04-17 103848](https://github.com/user-attachments/assets/760be4b7-1f05-4ebc-83f8-756c3400cc53)
