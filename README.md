@@ -70,7 +70,7 @@ Script que instala algumas bibliotecas:
 
 **Comandos executados:**
 
-Rodando um container ubunto genérico:
+Rodando um container ubuntu genérico:
 
 ![Captura de tela 2025-04-22 094920](https://github.com/user-attachments/assets/44a87ef2-76ee-4c8f-b511-29e079ac10b1)
 
@@ -96,17 +96,26 @@ Comando para remover o container de teste:
 
 **Objetivo:** Criar uma imagem Docker com Flask que retorna mensagem em um endpoint.
 
-**Print do Dockerfile:**
-
 **Print do app.py:**
 
+![Captura de tela 2025-04-22 114114](https://github.com/user-attachments/assets/3bf28b72-5d2c-43b5-96ce-90c840604f83)
+
+**Print do Dockerfile:**
+
+![Captura de tela 2025-04-22 114747](https://github.com/user-attachments/assets/72f67201-a5e5-4faa-92d5-6f8404cb845e)
+
+
 **Comando para build e execução:**
-```bash
-docker build -t flask-app .
-docker run -p 5000:5000 flask-app
-```
+
+![Captura de tela 2025-04-22 114130](https://github.com/user-attachments/assets/9b318101-9b40-4d90-aa5d-f284d6bcfc23)
+
+![Captura de tela 2025-04-22 114723](https://github.com/user-attachments/assets/409ac390-63eb-4156-a861-5476dab83476)
+
 
 **Print do resultado em localhost:**
+
+![Captura de tela 2025-04-22 114705](https://github.com/user-attachments/assets/684c88c4-a276-44da-9fe5-2d87a678f783)
+
 
 ---
 
