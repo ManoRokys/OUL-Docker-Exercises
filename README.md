@@ -13,14 +13,23 @@ Este documento apresenta a resolução da lista de exercícios propostos para pr
 
 **Objetivo:** Executar um container com a imagem do Nginx e servir um site estático (landing page do TailwindCSS).
 
-**Comandos executados:**
-```bash
-docker run -d -p 8080:80 --name nginx-site nginx
-```
+**Print do Dockerfile (e da estrutura do projeto):**
 
-**Print do Dockerfile (se aplicável):**
+![Captura de tela 2025-04-17 103848](https://github.com/user-attachments/assets/760be4b7-1f05-4ebc-83f8-756c3400cc53)
+
+![Captura de tela 2025-04-17 105900](https://github.com/user-attachments/assets/573e8f81-321b-4e28-9885-1ce20a6a0bff)
+
+
+**Comandos executados:**
+
+![Captura de tela 2025-04-17 103823](https://github.com/user-attachments/assets/7658147c-51fd-43b4-860c-cd44784bceb7)
+
+![Captura de tela 2025-04-17 103834](https://github.com/user-attachments/assets/8bec355f-0213-47b6-bb8a-65d0eb63bf01)
+
 
 **Print da landing page no navegador:**
+
+![Captura de tela 2025-04-17 103914](https://github.com/user-attachments/assets/a0f4cdbe-ac2f-4095-b8ec-655abe99ea6b)
 
 ---
 
@@ -189,4 +198,4 @@ trivy image python:3.9
 
 A execução desta lista de exercícios proporcionou uma prática completa com as principais funcionalidades do Docker, incluindo imagens personalizadas, volumes, redes, boas práticas de segurança e análise de vulnerabilidades.
 
-**Link do repositório com os arquivos e prints:** [INSERIR LINK DO GITHUB AQUI]
+
