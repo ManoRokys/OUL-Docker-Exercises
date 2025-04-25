@@ -18,8 +18,11 @@ Este documento apresenta a resolução da lista de exercícios propostos para pr
 **Print do Dockerfile (e da estrutura do projeto):**
 
 Copiei o Repositório do TailwindCSS para a raiz do meu projeto Docker:
+
 ![Captura de tela 2025-04-17 103848](https://github.com/user-attachments/assets/760be4b7-1f05-4ebc-83f8-756c3400cc53)
+
 Dockerfile:
+
 ![Captura de tela 2025-04-17 105900](https://github.com/user-attachments/assets/573e8f81-321b-4e28-9885-1ce20a6a0bff)
 
 
