@@ -200,15 +200,20 @@ Rodando o container na porta 8080:
 
 **Objetivo:** Criar uma rede Docker e comunicar containers.
 
-**Print do docker-compose.yml com redes:**
-
 **Comandos utilizados:**
-```bash
-docker network ls
-docker-compose up -d
-```
 
-**Print de comunicação entre backend e banco:**
+Rodando o compose do projeto: 
+
+![Captura de tela 2025-04-23 092733](https://github.com/user-attachments/assets/62471e3f-b289-4093-93ba-14a5c7123574)
+
+Listagem das redes criadas:
+
+![Captura de tela 2025-04-23 092911](https://github.com/user-attachments/assets/824d1374-e234-483e-8901-fb9fdc686a99)
+
+**Print da aplicação rodando na porta 3000:**
+
+![Captura de tela 2025-04-23 093012](https://github.com/user-attachments/assets/996b8ab3-47fb-4522-99b5-306eb23820aa)
+
 
 ---
 
@@ -218,7 +223,17 @@ docker-compose up -d
 
 **Print do docker-compose.yml:**
 
+![Captura de tela 2025-04-23 093758](https://github.com/user-attachments/assets/72350b48-366f-42b3-8528-be0ce528d023)
+
+**Configurando usuário no postgres e rodando o projeto:**
+
+![Captura de tela 2025-04-23 093804](https://github.com/user-attachments/assets/8033e92e-749e-454d-b144-d7db987996b6)
+
+![Captura de tela 2025-04-23 093906](https://github.com/user-attachments/assets/df704fb0-6344-48f0-b980-7cf82ecc5c2e)
+
 **Print do pgAdmin acessando PostgreSQL:**
+
+![Captura de tela 2025-04-23 094034](https://github.com/user-attachments/assets/6295342e-b077-4d04-88f2-b5cf175d1ac8)
 
 ---
 
@@ -228,7 +243,17 @@ docker-compose up -d
 
 **Print do Dockerfile:**
 
+![Captura de tela 2025-04-23 102505](https://github.com/user-attachments/assets/4e03b29e-3e0f-4c95-ab40-78e678617f2a)
+
+**Comandos utilizados:**
+
+![Captura de tela 2025-04-23 102520](https://github.com/user-attachments/assets/702643c0-1884-4c3d-acc6-59922bc5bce5)
+
+![Captura de tela 2025-04-23 102530](https://github.com/user-attachments/assets/0945738a-8755-4252-b1f0-26ac403fb4a9)
+
 **Print do site carregado no navegador:**
+
+![Captura de tela 2025-04-25 104502](https://github.com/user-attachments/assets/1a2ac6ba-d86f-43f8-8d59-fc43c38251b4)
 
 ---
 
