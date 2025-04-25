@@ -69,13 +69,26 @@ Script que instala algumas bibliotecas:
 **Objetivo:** Listar containers, parar e remover um específico.
 
 **Comandos executados:**
-```bash
-docker ps -a
-docker stop <nome-ou-id>
-docker rm <nome-ou-id>
-```
 
-**Print da listagem e remoção:**
+Rodando um container ubunto genérico:
+
+![Captura de tela 2025-04-22 094920](https://github.com/user-attachments/assets/44a87ef2-76ee-4c8f-b511-29e079ac10b1)
+
+Listagem dos containers ativos: 
+
+![Captura de tela 2025-04-22 094933](https://github.com/user-attachments/assets/bb40327e-4834-4493-8127-749ef80bf802)
+
+Parando o container de teste: 
+
+![Captura de tela 2025-04-22 094956](https://github.com/user-attachments/assets/61414f80-ff5f-4c79-b4bd-9f3f56d1d9c1)
+
+Listagem mostrando os containers parados: 
+
+![Captura de tela 2025-04-22 095053](https://github.com/user-attachments/assets/db986e5e-23b0-4369-9d90-85a9f38b6e2b)
+
+Comando para remover o container de teste:
+
+![Captura de tela 2025-04-22 095118](https://github.com/user-attachments/assets/b4851bf0-36c9-4320-bd3a-fc9cb322cfda)
 
 ---
 
