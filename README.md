@@ -44,14 +44,23 @@ Rodando o container na porta 8080:
 
 **Objetivo:** Iniciar um container Ubuntu e testar um script bash de logs ou instalação.
 
+**Print do Dockerfile:**
+
+![Captura de tela 2025-04-22 092810](https://github.com/user-attachments/assets/5265b65a-1a38-4e09-8419-b63736dee8ca)
+
+**Script sh utilizado:**
+
+Script que instala algumas bibliotecas:
+
+![Captura de tela 2025-04-22 092801](https://github.com/user-attachments/assets/56b323ae-189c-4fba-9b0b-550144b37ff6)
+
 **Comandos executados:**
-```bash
-docker run -it ubuntu bash
-```
 
-**Script bash utilizado:**
+![Captura de tela 2025-04-22 090715](https://github.com/user-attachments/assets/a08b8e08-db95-4504-a725-e61e5d82e24d)
 
-**Print do terminal com interação:**
+**Print do terminal com os pacotes do script instalados:**
+
+![Captura de tela 2025-04-22 092736](https://github.com/user-attachments/assets/983ee2f3-68eb-4ec0-a660-e19a396e3b6b)
 
 ---
 
