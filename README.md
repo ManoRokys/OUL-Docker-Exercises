@@ -96,6 +96,9 @@ Comando para remover o container de teste:
 
 **Objetivo:** Criar uma imagem Docker com Flask que retorna mensagem em um endpoint.
 
+**Projeto Python (flask) usado de exemplo:**
+https://github.com/docker/awesome-compose/tree/master/flask
+
 **Print do app.py:**
 
 ![Captura de tela 2025-04-22 114114](https://github.com/user-attachments/assets/3bf28b72-5d2c-43b5-96ce-90c840604f83)
@@ -122,6 +125,9 @@ Comando para remover o container de teste:
 ## 5. Volume com MySQL
 
 **Objetivo:** Criar volume para persistência dos dados de um container MySQL.
+
+**Projeto de base react-express-mysql:**
+https://github.com/docker/awesome-compose/tree/master/react-express-mysql
 
 **Print dos comandos e testes de persistência:**
 
@@ -171,6 +177,9 @@ Mostrando que os dados estão persistêntes no volume:
 
 **Objetivo:** Utilizar multi-stage build para gerar imagem otimizada.
 
+**Projeto usado de exemplo desenvolvido em Golang:**
+https://github.com/docker/docker-gs-ping
+
 **Print do Dockerfile com multi-stage:**
 
 ![Captura de tela 2025-04-23 091200](https://github.com/user-attachments/assets/5bd3f9b3-d3a4-47ca-8aa5-94ff03092419)
@@ -200,6 +209,9 @@ Rodando o container na porta 8080:
 
 **Objetivo:** Criar uma rede Docker e comunicar containers.
 
+**Projeto original de React Express + Mongo:**
+https://github.com/docker/awesome-compose/tree/master/react-express-mongodb
+
 **Comandos utilizados:**
 
 Rodando o compose do projeto: 
@@ -221,6 +233,9 @@ Listagem das redes criadas:
 
 **Objetivo:** Rodar aplicação com banco PostgreSQL usando Docker Compose.
 
+**Projeto usado de exemplo com pgadmin:**
+https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin
+
 **Print do docker-compose.yml:**
 
 ![Captura de tela 2025-04-23 093758](https://github.com/user-attachments/assets/72350b48-366f-42b3-8528-be0ce528d023)
@@ -240,6 +255,9 @@ Listagem das redes criadas:
 ## 9. Imagem personalizada com site estático
 
 **Objetivo:** Construir imagem com servidor Nginx/Apache e HTML/CSS estático.
+
+**Projeto usado de exemplo para a Landing page estática:**
+https://github.com/creativetimofficial/material-kit
 
 **Print do Dockerfile:**
 
@@ -286,6 +304,9 @@ Listagem das redes criadas:
 
 **Objetivo:** Usar Trivy para identificar vulnerabilidades em imagem pública.
 
+**Site oficial do Trivy, com instalação e documentações:**
+https://trivy.dev/latest/
+
 **Imagem analisada:** `python:3.9`
 
 **Instalação do trivy via linux**
@@ -307,7 +328,7 @@ Teste se o trivy foi instalado com sucesso:
 ![Captura de tela 2025-04-24 112810](https://github.com/user-attachments/assets/528fd364-e138-486e-9350-5f7eb916c55b)
 
 
-**Print ou tabela com sugestões de correção:**
+**Print com sugestões de correção:**
 
 ![Captura de tela 2025-04-24 112751](https://github.com/user-attachments/assets/3a294170-ba5e-4a7c-9f56-7ddc100a5259)
 
